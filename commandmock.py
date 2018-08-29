@@ -1,8 +1,6 @@
 import sys
 if len(sys.argv) == 2:
     n=int(sys.argv[1])
-#for i in range(number):
- #   print("hello")
 if n%2==0:
 	n=n//2
 	count=1
