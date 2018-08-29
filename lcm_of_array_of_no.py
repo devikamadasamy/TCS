@@ -7,7 +7,8 @@ def find_lcm(num1,num2):
 	lcm=(num1*num2)//gcd
 	return lcm
 
-l = [2, 7, 3, 9, 4]
+n=raw_input()
+l=map(int,n.split())
  
 num1 = l[0]
 num2 = l[1]
