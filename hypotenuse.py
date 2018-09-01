@@ -1,0 +1,6 @@
+string=raw_input()
+list1=map(int,string.split())
+hy=(list1[1]*list1[1])+(list1[0]*list1[0])
+hy=hy**(0.5)
+hy=round(hy,2)
+print(hy)
