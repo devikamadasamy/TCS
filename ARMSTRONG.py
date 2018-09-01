@@ -1,0 +1,11 @@
+n=int(raw_input())
+temp=n
+armstrong=0
+while(n>0):
+	p=n%10
+	armstrong=armstrong+pow(p,3)
+	n=n//10
+if(armstrong==temp):
+	print("YES")
+else:
+	print("NO")
